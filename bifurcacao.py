@@ -7,7 +7,8 @@ thread acompanha a cadeia de todos os nos e registra quando dois deles possuem
 blocos diferentes na mesma altura. Ao final, espera a rede estabilizar e confere:
   - se todos os nos terminaram com os mesmos hashes em todos os blocos;
   - quantos blocos chegaram a fazer parte de alguma cadeia e foram descartados;
-  - se algum voto aceito foi perdido ou se algum eleitor ficou com dois votos.
+  - se algum voto aceito ficou pendente na mempool, foi perdido (nao esta na
+    cadeia nem em nenhuma mempool) ou se algum eleitor ficou com dois votos.
 
 Os nos devem estar com a mineracao automatica no intervalo padrao (10 s).
 
@@ -57,7 +58,8 @@ def main():
     parser = comum.argumentos("Convergencia e bifurcacao com mineracao automatica")
     parser.add_argument("--duracao", type=float, default=600, help="segundos enviando votos")
     parser.add_argument("--intervalo-votos", type=float, default=1.0, help="segundos entre dois votos")
-    parser.add_argument("--espera-final", type=float, default=180, help="espera maxima pela convergencia")
+    parser.add_argument("--espera-final", type=float, default=180,
+                        help="espera maxima, em segundos, para as mempools esvaziarem e as cadeias coincidirem")
     args = parser.parse_args()
 
     nos = comum.ler_nos(args.nos)
@@ -112,7 +114,11 @@ def main():
     txs = [tx for tx in comum.txs_cadeia(origem) if tx["id_votacao"] == id_votacao]
     na_cadeia = Counter(tx["tx_hash"] for tx in txs)
     por_eleitor = Counter(tx["chave_publica"] for tx in txs)
-    perdidos = [h for h in aceitos if h not in na_cadeia]
+    # fora da cadeia nao e perda: o voto pode estar na fila de alguma mempool
+    # (cada bloco leva no maximo 10 transacoes); so e perdido se nao estiver em nenhum lugar
+    em_mempool = set().union(*(comum.hashes_mempool(u) for u in nos.values()))
+    pendentes = [h for h in aceitos if h not in na_cadeia and h in em_mempool]
+    perdidos = [h for h in aceitos if h not in na_cadeia and h not in em_mempool]
     duplicados = [k for k, c in por_eleitor.items() if c > 1]
     descartados = [h for h in monitor.blocos_vistos if h not in set(final)]
 
@@ -124,15 +130,19 @@ def main():
         "bifurcacoes_observadas": len(monitor.bifurcacoes),
         "bifurcacoes": [{"instante_s": t, "altura": a, "hashes": h} for t, a, h in monitor.bifurcacoes],
         "blocos_descartados": len(descartados),
+        "votos_na_cadeia": sum(na_cadeia.values()), "votos_pendentes": len(pendentes),
         "votos_perdidos": len(perdidos), "eleitores_com_voto_duplo": len(duplicados),
-        "votos_na_cadeia": sum(na_cadeia.values()),
     }
     print(f"\nCadeias identicas nos {len(nos)} nos: {'sim' if iguais else 'NAO'} "
           f"(comprimentos {resultado['comprimento_final']})")
     print(f"Bifurcacoes observadas: {resultado['bifurcacoes_observadas']}")
     print(f"Blocos que estiveram em alguma cadeia e foram descartados: {resultado['blocos_descartados']}")
-    print(f"Votos aceitos: {len(aceitos)} | na cadeia final: {resultado['votos_na_cadeia']} | "
-          f"perdidos: {len(perdidos)} | eleitores com voto duplo: {len(duplicados)}")
+    print(f"Votos aceitos: {len(aceitos)} | na cadeia: {resultado['votos_na_cadeia']} | "
+          f"pendentes na mempool: {len(pendentes)} | perdidos: {len(perdidos)} | "
+          f"eleitores com voto duplo: {len(duplicados)}")
+    if pendentes:
+        print("A rede nao esvaziou as mempools dentro da espera final; aumente --espera-final "
+              "ou confira depois a contagem em /votacao/contagem/" + id_votacao)
     comum.salvar_resultado("bifurcacao", resultado)
 
 

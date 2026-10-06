@@ -1,0 +1,97 @@
+{
+  "origem": "mestre",
+  "destinos": [
+    "no1",
+    "no2"
+  ],
+  "amostras": 30,
+  "rtt": {
+    "mestre": {
+      "amostras": 30,
+      "media_ms": 3.5480720670117685,
+      "mediana_ms": 3.492148498480674,
+      "minimo_ms": 3.32763500045985,
+      "maximo_ms": 4.257990003679879,
+      "desvio_padrao_ms": 0.20173396181362266
+    },
+    "no1": {
+      "amostras": 30,
+      "media_ms": 4.874603466305416,
+      "mediana_ms": 4.833557999518234,
+      "minimo_ms": 4.725014005089179,
+      "maximo_ms": 5.506621004315093,
+      "desvio_padrao_ms": 0.16474073263686168
+    },
+    "no2": {
+      "amostras": 30,
+      "media_ms": 4.9170829336314155,
+      "mediana_ms": 4.887868501100456,
+      "minimo_ms": 4.736672999570146,
+      "maximo_ms": 5.1640210003824905,
+      "desvio_padrao_ms": 0.11289179031561593
+    }
+  },
+  "sessao": {
+    "no1": {
+      "amostras": 30,
+      "media_ms": 3220.271887966616,
+      "mediana_ms": 3218.7941984993813,
+      "minimo_ms": 3195.970059998217,
+      "maximo_ms": 3253.937992005376,
+      "desvio_padrao_ms": 16.169275219698218
+    },
+    "no2": {
+      "amostras": 30,
+      "media_ms": 3318.2038901667206,
+      "mediana_ms": 3316.964353998628,
+      "minimo_ms": 3292.8464139986318,
+      "maximo_ms": 3352.5286430012784,
+      "desvio_padrao_ms": 16.46006014746421
+    }
+  },
+  "transacao": {
+    "no1": {
+      "amostras": 30,
+      "media_ms": 3067.744195898316,
+      "mediana_ms": 3068.826063994493,
+      "minimo_ms": 3052.0461420019274,
+      "maximo_ms": 3075.5364979995647,
+      "desvio_padrao_ms": 4.2514323148461495
+    },
+    "no2": {
+      "amostras": 30,
+      "media_ms": 3105.649756932204,
+      "mediana_ms": 3105.791253499774,
+      "minimo_ms": 3088.802154001314,
+      "maximo_ms": 3115.9567309950944,
+      "desvio_padrao_ms": 4.978753211342064
+    }
+  },
+  "bloco": {
+    "no1": {
+      "amostras": 30,
+      "media_ms": 3034.268847100369,
+      "mediana_ms": 3030.5104219987697,
+      "minimo_ms": 3027.4056429989287,
+      "maximo_ms": 3064.3570669999463,
+      "desvio_padrao_ms": 10.500389626609591
+    },
+    "no2": {
+      "amostras": 30,
+      "media_ms": 3062.583813900225,
+      "mediana_ms": 3053.808749999007,
+      "minimo_ms": 3049.851140996907,
+      "maximo_ms": 3125.5618630020763,
+      "desvio_padrao_ms": 21.523917894546106
+    }
+  },
+  "mineracao_na_origem": {
+    "amostras": 30,
+    "media_ms": 2830.869171266628,
+    "mediana_ms": 2124.2827924979792,
+    "minimo_ms": 43.419816000096034,
+    "maximo_ms": 9154.654847996426,
+    "desvio_padrao_ms": 2448.6786262850314
+  },
+  "blocos_em_conflito": 0
+}

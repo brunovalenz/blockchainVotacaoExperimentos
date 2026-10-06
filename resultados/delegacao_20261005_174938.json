@@ -1,0 +1,477 @@
+{
+  "concessao_em": "mestre",
+  "revogacao_em": "no2",
+  "sessao": "exp_del_20261005_174921",
+  "rodadas": [
+    {
+      "rodada": 1,
+      "concessao_ate_outro_no_ms": 111.77289400075097,
+      "intervalo_concessao_revogacao_ms": 139.62607600115007,
+      "convergiu_revogada": true,
+      "estados": {
+        "mestre": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:25.438022+00:00"
+        },
+        "no1": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:25.438022+00:00"
+        },
+        "no2": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:25.438022+00:00"
+        }
+      },
+      "datas_distintas": [
+        "2026-10-05T21:49:25.438022+00:00"
+      ]
+    },
+    {
+      "rodada": 2,
+      "concessao_ate_outro_no_ms": 111.94833899935475,
+      "intervalo_concessao_revogacao_ms": 139.76991399977123,
+      "convergiu_revogada": true,
+      "estados": {
+        "mestre": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:26.081372+00:00"
+        },
+        "no1": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:26.081372+00:00"
+        },
+        "no2": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:26.081372+00:00"
+        }
+      },
+      "datas_distintas": [
+        "2026-10-05T21:49:26.081372+00:00"
+      ]
+    },
+    {
+      "rodada": 3,
+      "concessao_ate_outro_no_ms": 110.81262100196909,
+      "intervalo_concessao_revogacao_ms": 138.36199000070337,
+      "convergiu_revogada": true,
+      "estados": {
+        "mestre": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:26.712890+00:00"
+        },
+        "no1": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:26.712890+00:00"
+        },
+        "no2": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:26.712890+00:00"
+        }
+      },
+      "datas_distintas": [
+        "2026-10-05T21:49:26.712890+00:00"
+      ]
+    },
+    {
+      "rodada": 4,
+      "concessao_ate_outro_no_ms": 109.01074100183905,
+      "intervalo_concessao_revogacao_ms": 137.07416400211514,
+      "convergiu_revogada": true,
+      "estados": {
+        "mestre": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:27.346601+00:00"
+        },
+        "no1": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:27.346601+00:00"
+        },
+        "no2": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:27.346601+00:00"
+        }
+      },
+      "datas_distintas": [
+        "2026-10-05T21:49:27.346601+00:00"
+      ]
+    },
+    {
+      "rodada": 5,
+      "concessao_ate_outro_no_ms": 109.7719639983552,
+      "intervalo_concessao_revogacao_ms": 137.49942199865473,
+      "convergiu_revogada": true,
+      "estados": {
+        "mestre": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:27.981265+00:00"
+        },
+        "no1": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:27.981265+00:00"
+        },
+        "no2": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:27.981265+00:00"
+        }
+      },
+      "datas_distintas": [
+        "2026-10-05T21:49:27.981265+00:00"
+      ]
+    },
+    {
+      "rodada": 6,
+      "concessao_ate_outro_no_ms": 110.5024480020802,
+      "intervalo_concessao_revogacao_ms": 139.00145100342343,
+      "convergiu_revogada": true,
+      "estados": {
+        "mestre": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:28.615912+00:00"
+        },
+        "no1": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:28.615912+00:00"
+        },
+        "no2": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:28.615912+00:00"
+        }
+      },
+      "datas_distintas": [
+        "2026-10-05T21:49:28.615912+00:00"
+      ]
+    },
+    {
+      "rodada": 7,
+      "concessao_ate_outro_no_ms": 110.51712799962843,
+      "intervalo_concessao_revogacao_ms": 138.15951099968515,
+      "convergiu_revogada": true,
+      "estados": {
+        "mestre": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:29.255233+00:00"
+        },
+        "no1": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:29.255233+00:00"
+        },
+        "no2": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:29.255233+00:00"
+        }
+      },
+      "datas_distintas": [
+        "2026-10-05T21:49:29.255233+00:00"
+      ]
+    },
+    {
+      "rodada": 8,
+      "concessao_ate_outro_no_ms": 110.66839600243839,
+      "intervalo_concessao_revogacao_ms": 138.5881150017667,
+      "convergiu_revogada": true,
+      "estados": {
+        "mestre": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:29.892772+00:00"
+        },
+        "no1": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:29.892772+00:00"
+        },
+        "no2": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:29.892772+00:00"
+        }
+      },
+      "datas_distintas": [
+        "2026-10-05T21:49:29.892772+00:00"
+      ]
+    },
+    {
+      "rodada": 9,
+      "concessao_ate_outro_no_ms": 110.23825599841075,
+      "intervalo_concessao_revogacao_ms": 137.7826149982866,
+      "convergiu_revogada": true,
+      "estados": {
+        "mestre": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:30.529395+00:00"
+        },
+        "no1": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:30.529395+00:00"
+        },
+        "no2": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:30.529395+00:00"
+        }
+      },
+      "datas_distintas": [
+        "2026-10-05T21:49:30.529395+00:00"
+      ]
+    },
+    {
+      "rodada": 10,
+      "concessao_ate_outro_no_ms": 109.46400499960873,
+      "intervalo_concessao_revogacao_ms": 136.65450500047882,
+      "convergiu_revogada": true,
+      "estados": {
+        "mestre": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:31.166401+00:00"
+        },
+        "no1": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:31.166401+00:00"
+        },
+        "no2": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:31.166401+00:00"
+        }
+      },
+      "datas_distintas": [
+        "2026-10-05T21:49:31.166401+00:00"
+      ]
+    },
+    {
+      "rodada": 11,
+      "concessao_ate_outro_no_ms": 110.02114199800417,
+      "intervalo_concessao_revogacao_ms": 137.22344499910832,
+      "convergiu_revogada": true,
+      "estados": {
+        "mestre": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:31.802598+00:00"
+        },
+        "no1": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:31.802598+00:00"
+        },
+        "no2": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:31.802598+00:00"
+        }
+      },
+      "datas_distintas": [
+        "2026-10-05T21:49:31.802598+00:00"
+      ]
+    },
+    {
+      "rodada": 12,
+      "concessao_ate_outro_no_ms": 110.52188599933288,
+      "intervalo_concessao_revogacao_ms": 137.7503309995518,
+      "convergiu_revogada": true,
+      "estados": {
+        "mestre": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:32.437581+00:00"
+        },
+        "no1": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:32.437581+00:00"
+        },
+        "no2": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:32.437581+00:00"
+        }
+      },
+      "datas_distintas": [
+        "2026-10-05T21:49:32.437581+00:00"
+      ]
+    },
+    {
+      "rodada": 13,
+      "concessao_ate_outro_no_ms": 111.35879100038437,
+      "intervalo_concessao_revogacao_ms": 139.1785230007372,
+      "convergiu_revogada": true,
+      "estados": {
+        "mestre": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:33.071662+00:00"
+        },
+        "no1": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:33.071662+00:00"
+        },
+        "no2": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:33.071662+00:00"
+        }
+      },
+      "datas_distintas": [
+        "2026-10-05T21:49:33.071662+00:00"
+      ]
+    },
+    {
+      "rodada": 14,
+      "concessao_ate_outro_no_ms": 110.69229200074915,
+      "intervalo_concessao_revogacao_ms": 138.07529399855412,
+      "convergiu_revogada": true,
+      "estados": {
+        "mestre": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:33.707825+00:00"
+        },
+        "no1": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:33.707825+00:00"
+        },
+        "no2": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:33.707825+00:00"
+        }
+      },
+      "datas_distintas": [
+        "2026-10-05T21:49:33.707825+00:00"
+      ]
+    },
+    {
+      "rodada": 15,
+      "concessao_ate_outro_no_ms": 109.97948100339272,
+      "intervalo_concessao_revogacao_ms": 137.54850400073337,
+      "convergiu_revogada": true,
+      "estados": {
+        "mestre": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:34.351368+00:00"
+        },
+        "no1": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:34.351368+00:00"
+        },
+        "no2": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:34.351368+00:00"
+        }
+      },
+      "datas_distintas": [
+        "2026-10-05T21:49:34.351368+00:00"
+      ]
+    },
+    {
+      "rodada": 16,
+      "concessao_ate_outro_no_ms": 115.03998199987109,
+      "intervalo_concessao_revogacao_ms": 142.80281799801742,
+      "convergiu_revogada": true,
+      "estados": {
+        "mestre": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:34.988573+00:00"
+        },
+        "no1": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:34.988573+00:00"
+        },
+        "no2": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:34.988573+00:00"
+        }
+      },
+      "datas_distintas": [
+        "2026-10-05T21:49:34.988573+00:00"
+      ]
+    },
+    {
+      "rodada": 17,
+      "concessao_ate_outro_no_ms": 111.70924099860713,
+      "intervalo_concessao_revogacao_ms": 138.88675599810085,
+      "convergiu_revogada": true,
+      "estados": {
+        "mestre": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:35.622666+00:00"
+        },
+        "no1": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:35.622666+00:00"
+        },
+        "no2": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:35.622666+00:00"
+        }
+      },
+      "datas_distintas": [
+        "2026-10-05T21:49:35.622666+00:00"
+      ]
+    },
+    {
+      "rodada": 18,
+      "concessao_ate_outro_no_ms": 109.44722799831652,
+      "intervalo_concessao_revogacao_ms": 137.03394299955107,
+      "convergiu_revogada": true,
+      "estados": {
+        "mestre": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:36.255830+00:00"
+        },
+        "no1": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:36.255830+00:00"
+        },
+        "no2": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:36.255830+00:00"
+        }
+      },
+      "datas_distintas": [
+        "2026-10-05T21:49:36.255830+00:00"
+      ]
+    },
+    {
+      "rodada": 19,
+      "concessao_ate_outro_no_ms": 110.24903900033678,
+      "intervalo_concessao_revogacao_ms": 137.98485599909327,
+      "convergiu_revogada": true,
+      "estados": {
+        "mestre": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:36.888513+00:00"
+        },
+        "no1": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:36.888513+00:00"
+        },
+        "no2": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:36.888513+00:00"
+        }
+      },
+      "datas_distintas": [
+        "2026-10-05T21:49:36.888513+00:00"
+      ]
+    },
+    {
+      "rodada": 20,
+      "concessao_ate_outro_no_ms": 109.50276999938069,
+      "intervalo_concessao_revogacao_ms": 136.98732199918595,
+      "convergiu_revogada": true,
+      "estados": {
+        "mestre": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:37.521495+00:00"
+        },
+        "no1": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:37.521495+00:00"
+        },
+        "no2": {
+          "ativo": false,
+          "atualizado_em": "2026-10-05T21:49:37.521495+00:00"
+        }
+      },
+      "datas_distintas": [
+        "2026-10-05T21:49:37.521495+00:00"
+      ]
+    }
+  ],
+  "convergiram": 20,
+  "intervalo_concessao_revogacao": {
+    "amostras": 20,
+    "media_ms": 138.29947774993343,
+    "mediana_ms": 138.0300749988237,
+    "minimo_ms": 136.65450500047882,
+    "maximo_ms": 142.80281799801742,
+    "desvio_padrao_ms": 1.386586560677917
+  },
+  "executado_em": "2026-10-05T17:49:38.019810"
+}

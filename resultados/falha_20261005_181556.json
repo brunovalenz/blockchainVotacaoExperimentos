@@ -1,0 +1,19 @@
+{
+  "origem": "mestre",
+  "alvo": "no2",
+  "votos_durante_falha": 20,
+  "latencia_transacao_com_no_fora": {
+    "no1": {
+      "amostras": 20,
+      "media_ms": 3070.4591770499974,
+      "mediana_ms": 3069.3157374989823,
+      "minimo_ms": 3066.673240995442,
+      "maximo_ms": 3091.176419002295,
+      "desvio_padrao_ms": 5.238239576774433
+    }
+  },
+  "do_enter_ate_responder_s": 0.005862009005795699,
+  "de_responder_ate_em_dia_s": 0.21335003799322294,
+  "em_dia": true,
+  "votos_da_falha_na_cadeia_do_alvo": 10
+}

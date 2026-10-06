@@ -1,0 +1,25 @@
+{
+  "nos": [
+    "mestre",
+    "no1",
+    "no2"
+  ],
+  "sessao": "exp_bif_20261005_181906",
+  "duracao_s": 600.0,
+  "votos_enviados": 600,
+  "votos_aceitos": 600,
+  "votos_recusados": 0,
+  "estabilizou": false,
+  "cadeias_identicas": true,
+  "comprimento_final": {
+    "mestre": 116,
+    "no1": 116,
+    "no2": 116
+  },
+  "bifurcacoes_observadas": 0,
+  "bifurcacoes": [],
+  "blocos_descartados": 0,
+  "votos_perdidos": 140,
+  "eleitores_com_voto_duplo": 0,
+  "votos_na_cadeia": 460
+}

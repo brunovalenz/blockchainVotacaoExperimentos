@@ -1,0 +1,81 @@
+{
+  "origem": "mestre",
+  "destinos": [
+    "no1",
+    "no2"
+  ],
+  "eleitores": 1000,
+  "repeticoes": 3,
+  "execucoes": {
+    "individual": [
+      {
+        "chamadas_s": 64.73291380100272,
+        "replicado_em_todos_s": 69.11709628000244,
+        "chegada_por_no_s": {
+          "no1": 68.5840759269995,
+          "no2": 69.11709628000244
+        }
+      },
+      {
+        "chamadas_s": 73.24121994400048,
+        "replicado_em_todos_s": 89.97197516699816,
+        "chegada_por_no_s": {
+          "no1": 84.07421770200017,
+          "no2": 89.97197516699816
+        }
+      },
+      {
+        "chamadas_s": 81.6463311080006,
+        "replicado_em_todos_s": 85.38853742200445,
+        "chegada_por_no_s": {
+          "no1": 85.22139679400425,
+          "no2": 85.38853742200445
+        }
+      }
+    ],
+    "lote": [
+      {
+        "chamadas_s": 0.06474239800445503,
+        "replicado_em_todos_s": 3.4060797080019256,
+        "chegada_por_no_s": {
+          "no1": 3.280293834002805,
+          "no2": 3.4060797080019256
+        }
+      },
+      {
+        "chamadas_s": 0.0718342809996102,
+        "replicado_em_todos_s": 3.4706510710020666,
+        "chegada_por_no_s": {
+          "no1": 3.317106346003129,
+          "no2": 3.4706510710020666
+        }
+      },
+      {
+        "chamadas_s": 0.07814257499558153,
+        "replicado_em_todos_s": 3.53360574299586,
+        "chegada_por_no_s": {
+          "no1": 3.3518394909988274,
+          "no2": 3.53360574299586
+        }
+      }
+    ]
+  },
+  "mediana": {
+    "individual": {
+      "chamadas_s": 73.24121994400048,
+      "replicado_em_todos_s": 85.38853742200445
+    },
+    "lote": {
+      "chamadas_s": 0.0718342809996102,
+      "replicado_em_todos_s": 3.4706510710020666
+    }
+  },
+  "mensagens": {
+    "individual": 2000,
+    "lote": 2
+  },
+  "volume_bytes": {
+    "individual": 133476000,
+    "lote": 265344
+  }
+}
